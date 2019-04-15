@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+    id 'idea'
+}
+
+group 'com.github.venomousinc.studies.game.trashvikings'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'ch.qos.logback:logback-classic:1.2.3'
+    compile 'com.fasterxml.jackson.core:jackson-annotations:2.9.0.pr3'
+    compile 'com.fasterxml.jackson.core:jackson-core:2.9.0.pr3'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.9.0.pr3'
+    compile 'org.jetbrains:annotations:16.0.2'
+}
